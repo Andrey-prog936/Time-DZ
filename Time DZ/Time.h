@@ -14,6 +14,7 @@ public:
 	explicit Time(int second);
 	void Add1Second();
 	void Print() const;
+	void glek(int hours, int minutes, int seconds);
 	//~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-
 	Time operator+(const Time& other) const;
 	Time operator-(const Time& other) const;

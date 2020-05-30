@@ -11,6 +11,9 @@ int main()
 	cout << "5555 seconds" << endl;
 	Time t2(5555);
 	t2.Print();
+	cout << "t2 + t1" << endl;
+	Time t3 = t2 + t1;
+	t3.Print();
 
 	system("pause");
 	return 0;
